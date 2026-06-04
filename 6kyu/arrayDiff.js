@@ -8,4 +8,4 @@ If a = [1, 2, 2, 2, 3] and b = [2], the result should be [1, 3].
 */
 
 //My Solution://
-const difference = (a, b) => return a.filter(num => !b.includes(num))
+const arrayDiff = (a, b) => return a.filter(num => !b.includes(num))
