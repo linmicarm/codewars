@@ -27,6 +27,8 @@ function countSmileys(arr) {
   let count = 0;
 
   for (const face of arr) {
+    if (face.length < 2 || face.length > 3) continue;  // must be 2 or 3 chars
+
     const validEyes = eyes.includes(face[0]);
     const validNose = face.length === 2 || noses.includes(face[1]);
     const validMouth = mouths.includes(face[face.length - 1]);
