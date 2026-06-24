@@ -15,4 +15,4 @@ Disclaimer
 This is for beginners so we want to test basic loops and string manipulation.
 */
 
-const smash = words => words.map(word => word).join(" ")
+const smash = words => words.join(" ")
